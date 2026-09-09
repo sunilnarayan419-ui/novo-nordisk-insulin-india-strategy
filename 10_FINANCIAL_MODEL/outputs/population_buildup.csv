@@ -1,0 +1,6 @@
+layer,population
+Diagnosed diabetes population (ICMR-INDIAB 2023),101000000
+Treated population (36% treatment rate),36360000
+Insulin-treated population / TAM (27% of treated),9817200
+"SAM (60% of TAM, NN-reachable channels)",5890320
+"SOM Year 0 (NN current patients, blended share)",1492214

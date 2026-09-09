@@ -1,0 +1,77 @@
+<svg viewBox="0 0 950 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="950" height="420" fill="#ffffff"/>
+  <text x="475" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4c">India Type 2 Diabetes Patient Journey to Insulin</text>
+
+  <!-- stage boxes -->
+  <g id="stages">
+    <!-- Stage 1 -->
+    <rect x="15" y="70" width="130" height="80" rx="8" fill="#eef1f7" stroke="#5b6b8c"/>
+    <text x="80" y="95" text-anchor="middle" font-size="11" font-weight="bold">1. At-risk /</text>
+    <text x="80" y="110" text-anchor="middle" font-size="11" font-weight="bold">undiagnosed</text>
+    <text x="80" y="130" text-anchor="middle" font-size="10">~50%+ of diabetics</text>
+    <text x="80" y="144" text-anchor="middle" font-size="10">undiagnosed</text>
+
+    <rect x="160" y="70" width="130" height="80" rx="8" fill="#eef1f7" stroke="#5b6b8c"/>
+    <text x="225" y="95" text-anchor="middle" font-size="11" font-weight="bold">2. Diagnosed,</text>
+    <text x="225" y="110" text-anchor="middle" font-size="11" font-weight="bold">oral-agent managed</text>
+    <text x="225" y="130" text-anchor="middle" font-size="10">Lifestyle +</text>
+    <text x="225" y="144" text-anchor="middle" font-size="10">metformin</text>
+
+    <rect x="305" y="70" width="140" height="80" rx="8" fill="#fdf1e0" stroke="#b5791f"/>
+    <text x="375" y="90" text-anchor="middle" font-size="11" font-weight="bold">3. Intensification</text>
+    <text x="375" y="105" text-anchor="middle" font-size="11" font-weight="bold">trigger</text>
+    <text x="375" y="125" text-anchor="middle" font-size="10">DROP-OFF RISK:</text>
+    <text x="375" y="139" text-anchor="middle" font-size="10">initiation delay</text>
+
+    <rect x="460" y="70" width="130" height="80" rx="8" fill="#eef1f7" stroke="#5b6b8c"/>
+    <text x="525" y="95" text-anchor="middle" font-size="11" font-weight="bold">4. Insulin</text>
+    <text x="525" y="110" text-anchor="middle" font-size="11" font-weight="bold">initiation</text>
+    <text x="525" y="130" text-anchor="middle" font-size="10">Basal or premix</text>
+    <text x="525" y="144" text-anchor="middle" font-size="10">insulin added</text>
+
+    <rect x="605" y="70" width="130" height="80" rx="8" fill="#eef1f7" stroke="#5b6b8c"/>
+    <text x="670" y="95" text-anchor="middle" font-size="11" font-weight="bold">5. Titration /</text>
+    <text x="670" y="110" text-anchor="middle" font-size="11" font-weight="bold">intensification</text>
+    <text x="670" y="130" text-anchor="middle" font-size="10">Regimen complexity</text>
+    <text x="670" y="144" text-anchor="middle" font-size="10">increases</text>
+
+    <rect x="750" y="70" width="145" height="80" rx="8" fill="#fdf1e0" stroke="#b5791f"/>
+    <text x="822" y="90" text-anchor="middle" font-size="11" font-weight="bold">6. Ongoing therapy</text>
+    <text x="822" y="105" text-anchor="middle" font-size="11" font-weight="bold">/ persistence</text>
+    <text x="822" y="125" text-anchor="middle" font-size="10">DROP-OFF RISK:</text>
+    <text x="822" y="139" text-anchor="middle" font-size="10">cost, injection burden</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#5b6b8c" stroke-width="2" fill="none" marker-end="url(#arrowj)">
+    <path d="M145,110 L158,110"/>
+    <path d="M290,110 L303,110"/>
+    <path d="M445,110 L458,110"/>
+    <path d="M590,110 L603,110"/>
+    <path d="M735,110 L748,110"/>
+  </g>
+
+  <!-- outcome branch -->
+  <path d="M822,150 L822,190" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowr)"/>
+  <rect x="650" y="195" width="300" height="55" rx="8" fill="#fdeaea" stroke="#c0392b"/>
+  <text x="800" y="217" text-anchor="middle" font-size="11" font-weight="bold">If persistence fails →</text>
+  <text x="800" y="234" text-anchor="middle" font-size="11">7. Complications (retinopathy, nephropathy,</text>
+  <text x="800" y="248" text-anchor="middle" font-size="11">neuropathy, cardiovascular disease)</text>
+
+  <!-- T1D branch -->
+  <rect x="15" y="290" width="480" height="70" rx="8" fill="#eafaf1" stroke="#27884b"/>
+  <text x="255" y="313" text-anchor="middle" font-size="12" font-weight="bold">Type 1 diabetes track (parallel, smaller population)</text>
+  <text x="255" y="332" text-anchor="middle" font-size="11">Insulin-dependent from diagnosis (often pediatric/young adult) —</text>
+  <text x="255" y="348" text-anchor="middle" font-size="11">lifelong multiple-daily-injection or pump therapy; no oral-agent phase</text>
+
+  <text x="15" y="400" font-size="11" fill="#777">Stages 3 and 6 are the primary intervention points for commercial and public-health strategy (see 02_INDUSTRY_LANDSCAPE/patient-journey.md).</text>
+
+  <defs>
+    <marker id="arrowj" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#5b6b8c"/>
+    </marker>
+    <marker id="arrowr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+</svg>

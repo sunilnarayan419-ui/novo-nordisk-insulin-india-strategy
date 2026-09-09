@@ -1,0 +1,66 @@
+<svg viewBox="0 0 950 480" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="950" height="480" fill="#ffffff"/>
+  <text x="475" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4c">Cold Chain Risk Map: 2–8°C Requirement vs. Distribution Stage</text>
+
+  <!-- temperature band -->
+  <rect x="60" y="60" width="830" height="40" fill="#eafaf1" stroke="#27884b"/>
+  <text x="475" y="85" text-anchor="middle" font-size="12" font-weight="bold">Required range: 2–8°C (unbroken, manufacture → near point of use)</text>
+
+  <!-- stage bars with risk color -->
+  <g font-size="11">
+    <!-- stage 1 -->
+    <rect x="60" y="130" width="110" height="60" rx="6" fill="#eafaf1" stroke="#27884b"/>
+    <text x="115" y="155" text-anchor="middle">Manufacturing</text>
+    <text x="115" y="170" text-anchor="middle" font-size="10">Risk: Low</text>
+
+    <rect x="190" y="130" width="110" height="60" rx="6" fill="#eafaf1" stroke="#27884b"/>
+    <text x="245" y="155" text-anchor="middle">Primary</text>
+    <text x="245" y="168" text-anchor="middle">distribution</text>
+    <text x="245" y="182" text-anchor="middle" font-size="10">Risk: Low</text>
+
+    <rect x="320" y="130" width="110" height="60" rx="6" fill="#fdf6e3" stroke="#cc8a2f"/>
+    <text x="375" y="155" text-anchor="middle">Regional DC →</text>
+    <text x="375" y="168" text-anchor="middle">wholesaler</text>
+    <text x="375" y="182" text-anchor="middle" font-size="10">Risk: Low–Moderate</text>
+
+    <rect x="450" y="130" width="130" height="60" rx="6" fill="#fdeee0" stroke="#e08a2f"/>
+    <text x="515" y="150" text-anchor="middle">Secondary →</text>
+    <text x="515" y="163" text-anchor="middle">sub-stockist</text>
+    <text x="515" y="177" text-anchor="middle" font-size="10">Risk: Moderate</text>
+
+    <rect x="595" y="130" width="150" height="60" rx="6" fill="#fbe0e0" stroke="#d35450"/>
+    <text x="670" y="150" text-anchor="middle">Last-mile transport</text>
+    <text x="670" y="163" text-anchor="middle">(rural/Tier 3+)</text>
+    <text x="670" y="177" text-anchor="middle" font-size="10">Risk: High</text>
+
+    <rect x="760" y="130" width="130" height="60" rx="6" fill="#fdeaea" stroke="#c0392b"/>
+    <text x="825" y="150" text-anchor="middle">Retail-point</text>
+    <text x="825" y="163" text-anchor="middle">storage (rural)</text>
+    <text x="825" y="177" text-anchor="middle" font-size="10">Risk: Highest</text>
+
+    <path d="M170,160 L188,160 M300,160 L318,160 M430,160 L448,160 M580,160 L593,160 M745,160 L758,160" stroke="#5b6b8c" stroke-width="2" marker-end="url(#am)"/>
+  </g>
+
+  <!-- Risk factor callouts -->
+  <g font-size="11">
+    <rect x="60" y="220" width="830" height="120" rx="8" fill="#fafafa" stroke="#999"/>
+    <text x="80" y="245" font-weight="bold" font-size="12">Key India-Specific Risk Factors</text>
+    <text x="80" y="265">• High ambient temperature across large parts of the country, especially April–June</text>
+    <text x="80" y="283">• Inconsistent electricity supply / refrigeration reliability in Tier 3+ / rural retail points</text>
+    <text x="80" y="301">• Long, fragmented last-mile transport with limited cold-chain-certified vehicles</text>
+    <text x="80" y="319">• Limited real-time temperature-monitoring/traceability below the wholesaler tier</text>
+    <text x="80" y="337">• Directional wastage benchmark from general LMIC biologics literature: ~25–30% in some contexts (not India-insulin-specific; treated as assumption A6)</text>
+  </g>
+
+  <g font-size="11">
+    <rect x="60" y="360" width="830" height="90" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="80" y="382" font-weight="bold" font-size="12">Mitigation Levers</text>
+    <text x="80" y="402">1. Partner with existing vaccine/biologics cold-chain infrastructure   2. Solar/battery-backed refrigeration at priority rural outlets</text>
+    <text x="80" y="420">3. Temperature-logging indicators on distribution units   4. Geography-prioritized rollout (see 03_MARKET_ANALYSIS/geographic-opportunity.md)</text>
+    <text x="80" y="438">See 09_SUPPLY_CHAIN/cold-chain.md for full detail.</text>
+  </g>
+
+  <defs>
+    <marker id="am" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5b6b8c"/></marker>
+  </defs>
+</svg>

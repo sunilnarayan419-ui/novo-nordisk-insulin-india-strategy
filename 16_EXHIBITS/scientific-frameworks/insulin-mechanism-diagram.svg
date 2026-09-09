@@ -1,0 +1,108 @@
+<svg viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="900" height="560" fill="#ffffff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4c">Insulin Mechanism of Action &amp; Manufacturing Pathway</text>
+
+  <!-- Row 1: Biology -->
+  <text x="20" y="66" font-size="14" font-weight="bold" fill="#1a2b4c">1. Physiology (Type 2 Diabetes)</text>
+
+  <g>
+    <rect x="20" y="80" width="150" height="60" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="95" y="105" text-anchor="middle" font-size="12">Rising blood</text>
+    <text x="95" y="122" text-anchor="middle" font-size="12">glucose</text>
+  </g>
+  <path d="M170,110 L210,110" stroke="#3f6fbf" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="210" y="80" width="160" height="60" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="290" y="100" text-anchor="middle" font-size="12">Beta cells (islets</text>
+    <text x="290" y="116" text-anchor="middle" font-size="12">of Langerhans)</text>
+    <text x="290" y="132" text-anchor="middle" font-size="12">secrete insulin</text>
+  </g>
+  <path d="M370,110 L410,110" stroke="#3f6fbf" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="410" y="80" width="170" height="60" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="495" y="100" text-anchor="middle" font-size="12">Insulin binds receptor</text>
+    <text x="495" y="116" text-anchor="middle" font-size="12">on muscle/fat/liver</text>
+    <text x="495" y="132" text-anchor="middle" font-size="12">cells</text>
+  </g>
+  <path d="M580,110 L620,110" stroke="#3f6fbf" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="620" y="80" width="170" height="60" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="705" y="100" text-anchor="middle" font-size="12">GLUT4 uptake +</text>
+    <text x="705" y="116" text-anchor="middle" font-size="12">↓ hepatic glucose</text>
+    <text x="705" y="132" text-anchor="middle" font-size="12">output → glucose ↓</text>
+  </g>
+
+  <g>
+    <rect x="20" y="160" width="450" height="50" rx="8" fill="#fff3e6" stroke="#cc8a2f"/>
+    <text x="245" y="180" text-anchor="middle" font-size="12">Type 1: autoimmune beta-cell destruction → absolute insulin deficiency</text>
+    <text x="245" y="197" text-anchor="middle" font-size="12">Type 2: insulin resistance + progressive beta-cell failure → relative deficiency</text>
+  </g>
+  <path d="M245,210 L245,235" stroke="#cc8a2f" stroke-width="2" marker-end="url(#arrow2)"/>
+  <g>
+    <rect x="20" y="240" width="450" height="45" rx="8" fill="#fdeaea" stroke="#c0392b"/>
+    <text x="245" y="267" text-anchor="middle" font-size="13" font-weight="bold">Exogenous insulin therapy required to restore glucose disposal</text>
+  </g>
+
+  <!-- Row 2: Manufacturing -->
+  <text x="20" y="330" font-size="14" font-weight="bold" fill="#1a2b4c">2. Manufacturing Pathway (Recombinant DNA Technology)</text>
+
+  <g>
+    <rect x="20" y="345" width="150" height="55" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="95" y="367" text-anchor="middle" font-size="12">Insulin gene</text>
+    <text x="95" y="384" text-anchor="middle" font-size="12">(native or engineered)</text>
+  </g>
+  <path d="M170,372 L205,372" stroke="#27884b" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <g>
+    <rect x="205" y="345" width="160" height="55" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="285" y="367" text-anchor="middle" font-size="12">Inserted into E. coli</text>
+    <text x="285" y="384" text-anchor="middle" font-size="12">or yeast host cell</text>
+  </g>
+  <path d="M365,372 L400,372" stroke="#27884b" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <g>
+    <rect x="400" y="345" width="150" height="55" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="475" y="367" text-anchor="middle" font-size="12">Fermentation at</text>
+    <text x="475" y="384" text-anchor="middle" font-size="12">industrial scale</text>
+  </g>
+  <path d="M550,372 L585,372" stroke="#27884b" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <g>
+    <rect x="585" y="345" width="150" height="55" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="660" y="367" text-anchor="middle" font-size="12">Purification +</text>
+    <text x="660" y="384" text-anchor="middle" font-size="12">enzymatic processing</text>
+  </g>
+  <path d="M735,372 L770,372" stroke="#27884b" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <g>
+    <rect x="770" y="345" width="110" height="55" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="825" y="367" text-anchor="middle" font-size="12">Crystallize +</text>
+    <text x="825" y="384" text-anchor="middle" font-size="12">formulate</text>
+  </g>
+
+  <path d="M825,400 L825,420" stroke="#27884b" stroke-width="2" marker-end="url(#arrow3)"/>
+  <g>
+    <rect x="605" y="425" width="270" height="55" rx="8" fill="#f4eefc" stroke="#7b52ab"/>
+    <text x="740" y="447" text-anchor="middle" font-size="12">Human insulin (unmodified)</text>
+    <text x="740" y="464" text-anchor="middle" font-size="12">OR analogue (sequence-modified)</text>
+  </g>
+
+  <text x="20" y="500" font-size="12" fill="#333">Illustrative API cost basis (public estimates): human insulin ≈ US$24,750/kg;</text>
+  <text x="20" y="518" font-size="12" fill="#333">insulin glargine ≈ US$68,757/kg; other analogues up to ≈ US$100,000/kg (van de Pol et al., 2019).</text>
+  <text x="20" y="540" font-size="11" fill="#777">Source: peer-reviewed API cost-modeling literature; see 18_RESEARCH/source-library.md. Schematic, not to scale.</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#3f6fbf"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#cc8a2f"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#27884b"/>
+    </marker>
+  </defs>
+</svg>

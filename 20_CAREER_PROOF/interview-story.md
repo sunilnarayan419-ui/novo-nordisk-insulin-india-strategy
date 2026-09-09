@@ -1,0 +1,9 @@
+# Interview Story (STAR Format)
+
+**Situation**: I wanted to build a project that combined my life-sciences background with commercial/strategic thinking, so I framed an independent case study around a real, publicly debated challenge — how a global insulin manufacturer should balance access and commercial sustainability in India, a market with an extraordinary internal price range (from government-controlled human insulin to premium uncontrolled analogues).
+
+**Task**: Produce an "industry-grade" strategy report: market sizing, competitive analysis, pricing/access strategy, supply chain diagnostics, a quantitative financial model with scenarios, and a clear, defensible recommendation — all sourced exclusively from public information, with every claim labeled by its evidentiary status.
+
+**Action**: I started with the epidemiology (ICMR-INDIAB) to size the true patient population, then built up through competitive dynamics, pricing regulation (NPPA/DPCO), and market access structures (Ayushman Bharat, PMBJP) to understand *why* the market behaves the way it does. I identified that the core tension — access vs. margin — was often treated as unresolvable, so I built a segmented pricing/portfolio framework showing that the tension is largely an artifact of uniform pricing, not a fundamental trade-off. I then built a reproducible Python model to quantify this across three scenarios and ran sensitivity analysis to identify which variables actually mattered most.
+
+**Result**: A complete, internally consistent 20-section strategy repository, including original diagrams and a working quantitative model, arriving at a specific, defensible recommendation (a segmented strategy evolving into an integrated ecosystem model) rather than a generic "do more research" conclusion — and a clear personal demonstration that I can move from scientific/biological understanding to a quantified business recommendation.

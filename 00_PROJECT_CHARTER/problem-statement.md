@@ -1,7 +1,7 @@
 PROJECT TYPE:
 Life Sciences / Biotechnology Strategy Consulting Case
 
-CLIENT:
+CASE STUDY CLIENT:
 Novo Nordisk
 
 PROJECT TITLE:

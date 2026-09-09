@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1000 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="460" fill="#ffffff"/>
+  <text x="500" y="30" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a2b4c">Insulin Distribution Flow — India (End to End)</text>
+
+  <!-- main chain -->
+  <g font-size="11">
+    <rect x="15" y="60" width="120" height="55" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="75" y="82" text-anchor="middle">Manufacturing</text>
+    <text x="75" y="97" text-anchor="middle">(fermentation +</text>
+    <text x="75" y="110" text-anchor="middle" font-size="10">fill-finish)</text>
+
+    <rect x="160" y="60" width="130" height="55" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="225" y="82" text-anchor="middle">Regional CFA /</text>
+    <text x="225" y="97" text-anchor="middle">distribution centre</text>
+    <text x="225" y="110" text-anchor="middle" font-size="9">(2–8°C cold chain)</text>
+
+    <rect x="315" y="60" width="130" height="55" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="380" y="82" text-anchor="middle">Wholesaler /</text>
+    <text x="380" y="97" text-anchor="middle">stockist</text>
+
+    <path d="M135,87 L158,87 M290,87 L313,87" stroke="#3f6fbf" stroke-width="2" marker-end="url(#a1)"/>
+  </g>
+
+  <!-- four channel branches -->
+  <g font-size="10">
+    <path d="M445,87 L470,87" stroke="#3f6fbf" stroke-width="2"/>
+    <path d="M470,87 L470,60 L520,60" stroke="#3f6fbf" stroke-width="2" marker-end="url(#a1)"/>
+    <path d="M470,87 L470,110 L520,110" stroke="#b5791f" stroke-width="2" marker-end="url(#a2)"/>
+    <path d="M470,87 L470,160 L520,160" stroke="#c0392b" stroke-width="2" marker-end="url(#a3)"/>
+    <path d="M470,87 L470,210 L520,210" stroke="#27884b" stroke-width="2" marker-end="url(#a4)"/>
+
+    <rect x="520" y="35" width="220" height="50" rx="8" fill="#eaf2ff" stroke="#3f6fbf"/>
+    <text x="630" y="55" text-anchor="middle" font-weight="bold">Metro / Tier 1 retail &amp; hospital pharmacy</text>
+    <text x="630" y="70" text-anchor="middle">High cold-chain reliability</text>
+
+    <rect x="520" y="90" width="220" height="50" rx="8" fill="#fdf1e0" stroke="#b5791f"/>
+    <text x="630" y="110" text-anchor="middle" font-weight="bold">Govt tender → PHC / govt hospital</text>
+    <text x="630" y="125" text-anchor="middle">Variable reliability by state</text>
+
+    <rect x="520" y="140" width="220" height="50" rx="8" fill="#fdeaea" stroke="#c0392b"/>
+    <text x="630" y="160" text-anchor="middle" font-weight="bold">Rural / Tier 3+ independent pharmacy</text>
+    <text x="630" y="175" text-anchor="middle">Lowest reliability — longest last mile</text>
+
+    <rect x="520" y="190" width="220" height="50" rx="8" fill="#eafaf1" stroke="#27884b"/>
+    <text x="630" y="210" text-anchor="middle" font-weight="bold">PMBJP Jan Aushadhi Kendra</text>
+    <text x="630" y="225" text-anchor="middle">18,000+ outlets; improving cold chain</text>
+  </g>
+
+  <!-- e-pharmacy branch -->
+  <path d="M380,115 L380,270 L520,270" stroke="#7b52ab" stroke-width="2" fill="none" marker-end="url(#a5)"/>
+  <rect x="520" y="245" width="220" height="50" rx="8" fill="#f4eefc" stroke="#7b52ab"/>
+  <text x="630" y="265" text-anchor="middle" font-size="10" font-weight="bold">E-pharmacy fulfilment centre</text>
+  <text x="630" y="280" text-anchor="middle" font-size="10">Direct-to-patient, cold-chain courier</text>
+
+  <!-- final node: patient -->
+  <path d="M740,60 L760,60 M740,115 L760,115 M740,165 L760,165 M740,215 L760,215 M740,270 L760,270" stroke="#5b6b8c" stroke-width="1.5"/>
+  <path d="M760,60 L860,60 M760,115 L860,115 M760,165 L860,165 M760,215 L860,215 M760,270 L860,270" stroke="#5b6b8c" stroke-width="1.5"/>
+  <path d="M860,60 L860,285 M860,285 L900,285" stroke="#5b6b8c" stroke-width="1.5" marker-end="url(#a6)"/>
+  <rect x="900" y="255" width="85" height="60" rx="8" fill="#eef1f7" stroke="#5b6b8c"/>
+  <text x="942" y="278" text-anchor="middle" font-size="11" font-weight="bold">Patient</text>
+  <text x="942" y="293" text-anchor="middle" font-size="9">home storage</text>
+  <text x="942" y="305" text-anchor="middle" font-size="9">&amp; use</text>
+
+  <text x="15" y="350" font-size="12" font-weight="bold" fill="#1a2b4c">Cold-chain risk increases left-to-right and top-to-bottom in the channel list above.</text>
+  <text x="15" y="370" font-size="11" fill="#333">Highest risk: rural/Tier 3+ last mile (red). Lowest risk: metro retail/hospital (blue).</text>
+  <text x="15" y="390" font-size="11" fill="#333">See 09_SUPPLY_CHAIN/distribution-network.md and cold-chain.md for full analysis.</text>
+  <text x="15" y="420" font-size="10" fill="#777">Schematic representation of a generalized multi-tier pharma distribution structure applied to insulin's cold-chain requirement; not a depiction of any specific company's confidential logistics network.</text>
+
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#3f6fbf"/></marker>
+    <marker id="a2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#b5791f"/></marker>
+    <marker id="a3" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c0392b"/></marker>
+    <marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#27884b"/></marker>
+    <marker id="a5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#7b52ab"/></marker>
+    <marker id="a6" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5b6b8c"/></marker>
+  </defs>
+</svg>
